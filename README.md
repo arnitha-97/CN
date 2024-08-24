@@ -16,7 +16,9 @@ This project is a client-server application designed for secure file transfer us
 - `Werkzeug` for handling file uploads securely
 - `ssl` for secure communication
 
-## Directory Structure 
+### Directory Structure
+
+```plaintext
 secure-file-transfer/
 ├── certs/
 │   ├── cert.pem
@@ -25,8 +27,7 @@ secure-file-transfer/
 │   └── # Directory where uploaded files will be stored
 ├── client.py
 ├── server.py
-├── requirements.txt
-└── README.md
+```
 
 certs/: Directory containing SSL certificate and key files.
 server_files/: Directory where files uploaded by the client are stored.
