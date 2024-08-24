@@ -17,7 +17,7 @@ This project is a client-server application designed for secure file transfer us
 - `ssl` for secure communication
 
 ## Directory Structure 
-  secure-file-transfer/
+secure-file-transfer/
 ├── certs/
 │   ├── cert.pem
 │   └── key.pem
@@ -25,6 +25,8 @@ This project is a client-server application designed for secure file transfer us
 │   └── # Directory where uploaded files will be stored
 ├── client.py
 ├── server.py
+├── requirements.txt
+└── README.md
 
 certs/: Directory containing SSL certificate and key files.
 server_files/: Directory where files uploaded by the client are stored.
@@ -36,17 +38,17 @@ server.py: Server-side application that handles file uploads and downloads.
 
 ### Upload a File from the Client
 
-1.Start the client using python client.py.
-2.Enter upload when prompted.
-3.Provide the path to the file you want to upload.
-4.The file will be securely transferred to the server.
+1. Start the client using python client.py.
+2. Enter upload when prompted.
+3. Provide the path to the file you want to upload.
+4. The file will be securely transferred to the server.
 
 ## Download a File to the Client
 
 
-1.Start the client using python client.py.
-2.Enter download when prompted.
-3.Provide the filename you want to download.
-4.The file will be securely transferred from the server to the client.
+1. Start the client using python client.py.
+2. Enter download when prompted.
+3. Provide the filename you want to download.
+4. The file will be securely transferred from the server to the client.
 
 
